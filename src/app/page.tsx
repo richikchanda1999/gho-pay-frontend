@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Wallet from './wallet'
 import React from 'react'
+import Connect from './connect';
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
@@ -15,12 +16,8 @@ export default function Home() {
       </div>
       {/* <Link href="/funds"> */}
         <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full group rounded-lg border border-teal-900 px-5 py-4 transition-colors hover:border-sky-500 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
-          <div
-            className="mb-3 text-2xl font-semibold">
-              <React.Fragment>
-                <Wallet/>
-              </React.Fragment>
-          </div>
+          
+          <Wallet/>
         </div>
       {/* </Link> */}
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
