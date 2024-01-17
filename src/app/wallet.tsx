@@ -1,4 +1,5 @@
 'use client'
+
 import React from 'react';
 import { WagmiConfig, createConfig,useAccount } from "wagmi";
 import { ConnectKitProvider, ConnectKitButton, getDefaultConfig } from "connectkit";

@@ -1,4 +1,5 @@
-'use Client'
+'use client'
+
 import React from 'react';
 import { useEnsName,useAccount,useBalance} from "wagmi";
 import { SendTransaction } from './sendTransaction';
